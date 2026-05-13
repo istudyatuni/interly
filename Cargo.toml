@@ -3,13 +3,18 @@ members = ["macros"]
 
 [workspace.package]
 description = "Internalization unified"
-version = "0.0.0"
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/istudyatuni/interly"
+version = "0.1.0"
 edition = "2024"
-publish = false
 
 [package]
 name = "interly"
 description.workspace = true
+readme.workspace = true
+license.workspace = true
+repository.workspace = true
 version.workspace = true
 edition.workspace = true
 
@@ -25,7 +30,7 @@ quote = "1"
 syn = "2"
 unic-langid = { version = "0.9.6", features = [ "macros" ] }
 
-interly-macros = { path = "macros" }
+interly-macros = { path = "macros", version = "0.1.0" }
 
 [dependencies]
 fluent.workspace = true

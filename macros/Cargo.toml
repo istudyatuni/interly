@@ -1,6 +1,9 @@
 [package]
 name = "interly-macros"
 description.workspace = true
+readme.workspace = true
+license.workspace = true
+repository.workspace = true
 version.workspace = true
 edition.workspace = true
 
